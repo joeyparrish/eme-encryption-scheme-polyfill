@@ -1,6 +1,15 @@
 # Changelog
 
 
+### [1.0.1](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/compare/v1.0.0...v1.0.1) (2022-03-03)
+
+
+### Bug Fixes
+
+* Check if McEncryptionSchemePolyfill is installed ([#17](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/17)) ([cd12df6](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/cd12df6b5053a58f29ceda423582618ad06ecc27)), closes [#16](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/16)
+* **deps:** Update all dependencies ([#32](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/32)) ([761dece](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/761deceb36e28063ebf25077af10fea9a848901e))
+* Support browsers with clear MCap but no encrypted MCap ([#18](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/18)) ([7191c50](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/7191c509f5d038eee2ed82fdef955fe25ce699b8))
+
 ## 2.0.3 (2021-04-19)
 
 Bugfixes:
