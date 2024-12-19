@@ -1,6 +1,30 @@
 # Changelog
 
 
+## [2.2.0](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/compare/v2.1.6...v2.2.0) (2024-12-19)
+
+
+### Features
+
+* Add support for Chromecast version of PlayReady ([#45](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/45)) ([180f697](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/180f697d5d65527360c9d9096770f7eb74152d62))
+
+
+### Bug Fixes
+
+* Avoid duplicate calls to decodingInfo() ([#43](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/43)) ([fafd1dd](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/fafd1dd228e60f630274c77e28ed9ac7742d31cd))
+* Check if McEncryptionSchemePolyfill is installed ([#17](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/17)) ([cd12df6](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/cd12df6b5053a58f29ceda423582618ad06ecc27)), closes [#16](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/16)
+* **demo:** Log demo errors to the console ([#68](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/68)) ([ccfb179](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/ccfb1793ca80594a368cb669b97fa3ce0c50a09c))
+* **demo:** Upgrade UI combo box component ([#67](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/67)) ([0d51ba6](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/0d51ba6b96ccadf556d8f6ef90501906258d3186))
+* **deps:** Update all dependencies ([#32](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/32)) ([761dece](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/761deceb36e28063ebf25077af10fea9a848901e))
+* Fix access to null properties ([#73](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/73)) ([339842e](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/339842e94372d2f1b5d9605b88b38908fc2a6459))
+* Fix CBCS support in recent WebOS ([#81](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/81)) ([d5ecb15](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/d5ecb15259ba6cd23a5b42a63c882ccb29469773))
+* Fix CBCS support in some platforms ([#63](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/63)) ([3978d61](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/3978d619eb03534d89651a0cb11be8a9afad3387)), closes [#62](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/62)
+* Fix conflicts with multiple installations ([#71](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/71)) ([d74823f](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/d74823fe9e537497f1ec858943d9c1c6d152c2c3))
+* Fix ES6 transpilation ([#49](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/49)) ([b170e12](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/b170e12db57f772470eb98dbbb5327b1a03caabc)), closes [#48](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/48)
+* Populate requested scheme into output, not default scheme ([#69](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/69)) ([aa79c72](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/aa79c72fdab050d98c682fee2b0b1d2bcdeb47d6))
+* Support browsers with clear MCap but no encrypted MCap ([#18](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/18)) ([7191c50](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/7191c509f5d038eee2ed82fdef955fe25ce699b8))
+* Use cbcs as default scheme for Safari ([#64](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/issues/64)) ([5316552](https://github.com/joeyparrish/eme-encryption-scheme-polyfill/commit/53165526cd0297a987c7802bb2d7b190b7eb0c71))
+
 ## [2.1.6](https://github.com/shaka-project/eme-encryption-scheme-polyfill/compare/v2.1.5...v2.1.6) (2024-11-21)
 
 
