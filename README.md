@@ -1,5 +1,6 @@
 # EME & MediaCapabilities Encryption Scheme Polyfill
 
+
 A polyfill to add support for EncryptionScheme queries in EME and
 MediaCapabilities.
 
