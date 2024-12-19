@@ -12,6 +12,8 @@ jobs:
     permissions:
       # Write to "contents" is needed to create a release
       contents: write
+      # Write to pull-requests is needed to create and update the release PR
+      pull-requests: write
 
     steps:
       # Create/update release PR
